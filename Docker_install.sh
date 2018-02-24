@@ -1,15 +1,15 @@
 sudo su
-sudo apt-get update
-sudo apt-get install \
+apt-get update
+apt-get install \
 apt-transport-https \
 ca-certificates \
 curl \
 gnupg2 \
 software-properties-common
 $ curl -fsSL https://download.docker.com/linux/$(. /etc/s-release; echo "$ID")/gpg | sudo apt-key add -
-sudo add-apt-repository \
+add-apt-repository \
 "deb [arch=amd64] https://download.docker.com/linux/$(. /etc/os-release; echo "$ID") \
 $(lsb_release -cs) \
 stable"
-sudo apt-get update
-sudo apt-get install docker-ce
+apt-get update
+apt-get install docker-ce
