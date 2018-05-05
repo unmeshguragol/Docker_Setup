@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<style>
+.button {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="images.jpg" style="width:45%;" class="w3-round"><br><br>
+    <p>Namratha Methas</p>
+    <h6>Chief Exec Writer</h6>
+    <br>
+    <h4><b>ComputerNews Blog</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT US</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio" style="background-color: purple">
+    <a href="#"><img src="images.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container" style="color: white">
+    <h5><b>Welcome to ComputerNews Blog</b></h5>
+  </header>
+  
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>Hi Valued Customer,</b></h4>
+    <p>If you have reached this page then you have successfully registered and now a confirmed premium member of the ComputerNewsBlog. Welcome, we are the fastest reaching blog in the globe. With growing cyber attacks business is constantly facing the fear of an attack and the first  step in preventing an attack would be to be aware of it, all new threats,tools and techniques that come up in the market everyday. Thats what we do, we bring information fastest to the business so that they can be prepared for the worst.</p>
+    <p>
+      To view your first premium article click on the below link.
+    </p>
+    <hr>
+    <a href="#" class="button">View First Article</a>
+  </div>
+    
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 " style="background-color: purple; color: white">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>About Us</h3>
+      <p>We are the fastest growing blog in Asia and now we have over a million customers spread accross the globe in US, UK, Russia and many more countries</p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>POPULAR BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <span class="w3-large">Malwares and Ransomewares</span><br>
+          <span>Effect on Business</span>
+        </li>
+        <li class="w3-padding-16">
+          <span class="w3-large">Phishing</span><br>
+          <span>How it leads to complete compromise</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Hacking</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Business</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Malwares</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ransomwares</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Exploitation</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Data Theft</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Compromise</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Breach
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
